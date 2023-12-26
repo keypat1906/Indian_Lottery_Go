@@ -12,9 +12,8 @@ Write a console application in a freely chosen programming language that can be 
 ./yourapp input.txt
 where input.txt file exists in the same folder and is an ascii file, in which each line contains 5 space separated integers (in the range of 1-90) representing one player’s numbers.
 
-When your application finished processing the player’s dataset from the file, it should write a line to
-the standard output like this: 
-READY
+You can get test file from here. https://github.com/keypat1906/Indian-Lottery/blob/main/test.txt.zip
+
 
 Note that it should be newline terminated. After that, the program may receive multiple lines (identical to the file’s lines) representing the lottery’s picks and it should be able to report 4 space separated numbers on the standard output as fast as possible (line should be newline terminated). The four numbers shall mean the number of winners with 2, 3, 4 and 5 matches respectively.
 
